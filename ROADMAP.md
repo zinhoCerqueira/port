@@ -7,18 +7,18 @@ Este guia contém o passo a passo completo para transformar o template `itsnitin
 ## 📋 Lista de Tarefas (TODO List)
 
 ### Parte 0: Setup Inicial do Ambiente
-- [ ] **0.1. Preparar Pasta:** Criar o diretório local para o projeto.
-- [ ] **0.2. Clonar Template:** Trazer os arquivos do repositório original.
-- [ ] **0.3. Limpar Git:** Remover o histórico do autor original e iniciar o seu próprio.
-- [ ] **0.4. Instalar Dependências:** Configurar as bibliotecas necessárias usando NPM ou Bun.
-- [ ] **0.5. Teste Inicial:** Rodar o projeto localmente para garantir que o "puro" está funcionando.
+- [x] **0.1. Preparar Pasta:** Criar o diretório local para o projeto.
+- [x] **0.2. Clonar Template:** Trazer os arquivos do repositório original.
+- [x] **0.3. Limpar Git:** Remover o histórico do autor original e iniciar o seu próprio.
+- [x] **0.4. Instalar Dependências:** Configurar as bibliotecas necessárias usando NPM ou Bun.
+- [x] **0.5. Teste Inicial:** Rodar o projeto localmente para garantir que o "puro" está funcionando.
 
 ### Parte 1: Implementando a Estrutura de Janela
-- [ ] **1.1. Criar o Wrapper de Fundo:** Adicionar um container que ocupará 100% da tela com a imagem/gradiente de fundo.
-- [ ] **1.2. Criar a Moldura da Janela:** Envolver a aplicação em uma `div` com largura de 70%, bordas arredondadas e sombra.
+- [x] **1.1. Criar o Wrapper de Fundo:** Adicionar um container que ocupará 100% da tela com a imagem/gradiente de fundo.
+- [x] **1.2. Criar a Moldura da Janela:** Envolver a aplicação em uma `div` com largura de 70%, bordas arredondadas e sombra.
 - [ ] **1.3. Barra de Título (Decorativa):** Adicionar os botões de fechar/minimizar/maximizar (estilo Mac/Windows) no topo da janela.
 - [ ] **1.4. Ajuste de Layout Principal:** Modificar o arquivo `Layout.jsx` para aceitar as novas dimensões sem quebrar os componentes internos.
-- [ ] **1.5. Responsividade:** Garantir que em telas menores a janela vire "tela cheia".
+- [x] **1.5. Responsividade:** Garantir que em telas menores a janela vire "tela cheia".
 
 ### Parte 2: Substituindo os Dados Originais (Surgical Cleaning)
 - [ ] **2.1. Identificar Arquivos de Dados:** Localizar o diretório de dados (geralmente em `/data/` ou arquivos JSON/JS específicos).
