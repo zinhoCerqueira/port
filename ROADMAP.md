@@ -16,14 +16,16 @@ Este guia contém o passo a passo completo para transformar o template `itsnitin
 ### Parte 1: Implementando a Estrutura de Janela
 - [x] **1.1. Criar o Wrapper de Fundo:** Adicionar um container que ocupará 100% da tela com a imagem/gradiente de fundo.
 - [x] **1.2. Criar a Moldura da Janela:** Envolver a aplicação em uma `div` com largura de 70%, bordas arredondadas e sombra.
-- [ ] **1.3. Barra de Título (Decorativa):** Adicionar os botões de fechar/minimizar/maximizar (estilo Mac/Windows) no topo da janela.
-- [ ] **1.4. Ajuste de Layout Principal:** Modificar o arquivo `Layout.jsx` para aceitar as novas dimensões sem quebrar os componentes internos.
+- [x] **1.3. Barra de Título (Decorativa):** Adicionar os botões de fechar/minimizar/maximizar (estilo Mac/Windows) no topo da janela.
 - [x] **1.5. Responsividade:** Garantir que em telas menores a janela vire "tela cheia".
 
 ### Parte 2: Substituindo os Dados Originais (Surgical Cleaning)
 - [x] **2.1. Identificar Arquivos de Dados:** Localizar o diretório de dados (geralmente em `/data/` ou arquivos JSON/JS específicos).
-- [/] **2.2. Atualizar Informações Pessoais:** Nome, cargo, bio e links sociais (Bio pendente).
+- [x] **2.2. Atualizar Informações Pessoais:** Nome, cargo, bio e links sociais.
 - [ ] **2.3. Customizar Sidebar:** Definir quais "arquivos" (abas) seu VS Code terá (Sobre, Projetos, Contato, etc.).
+    - [ ] **2.3.1. Aba de Entretenimento (Privada):** Criar seções para Filmes, Livros e Jogos.
+        - [ ] *Requisito:* Acesso via Terminal simulado com o comando `sudo unlock --vault` e senha.
+    - [ ] **2.3.2. Exportar Currículo:** Adicionar um link para download do PDF do currículo.
 - [ ] **2.4. Atualizar Projetos:** Substituir os exemplos pelos seus próprios repositórios e descrições.
 - [x] **2.5. Troca de Favicon e Título:** Atualizar as meta-tags para o seu nome.
 
