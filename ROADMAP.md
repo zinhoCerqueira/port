@@ -38,6 +38,7 @@ Este guia contém o passo a passo completo para transformar o template `itsnitin
 - [ ] **A.7. Preencher Projetos:** Adicionar seus projetos reais no arquivo 'data/projects.ts'.
 
 ### Parte 3: Estética e Polimento
+- [x] **3.0. Correção de Scroll Duplo:** Unificar o scroll apenas na área de conteúdo do editor.
 - [ ] **3.1. Escolha da Imagem de Fundo:** Definir a imagem que ficará atrás da janela.
 - [ ] **3.2. Escolha do Tema Padrão:** Configurar qual tema do VS Code (Dracula, Nord, etc.) será o inicial.
 
