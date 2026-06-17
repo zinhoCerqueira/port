@@ -25,7 +25,7 @@ Este guia contém o passo a passo completo para transformar o template `itsnitin
 - [ ] **2.3. Customizar Sidebar:** Definir quais "arquivos" (abas) seu VS Code terá (Sobre, Projetos, Contato, etc.).
     - [/] **2.3.1. Aba de Entretenimento (Privada):** Criar seções para Filmes, Livros e Jogos. (Estrutura base criada)
         - [x] *Requisito:* Acesso via Terminal simulado com o comando `sudo unlock --vault` e senha.
-    - [ ] **2.3.2. Exportar Currículo:** Adicionar um link para download do PDF do currículo.
+    - [x] **2.3.2. Exportar Currículo:** Adicionar um link para download do PDF do currículo.
 - [ ] **2.4. Atualizar Projetos:** Substituir os exemplos pelos seus próprios repositórios e descrições.
 - [x] **2.5. Troca de Favicon e Título:** Atualizar as meta-tags para o seu nome.
 
