@@ -21,18 +21,26 @@ Este guia contém o passo a passo completo para transformar o template `itsnitin
 - [x] **1.5. Responsividade:** Garantir que em telas menores a janela vire "tela cheia".
 
 ### Parte 2: Substituindo os Dados Originais (Surgical Cleaning)
-- [ ] **2.1. Identificar Arquivos de Dados:** Localizar o diretório de dados (geralmente em `/data/` ou arquivos JSON/JS específicos).
-- [ ] **2.2. Atualizar Informações Pessoais:** Nome, cargo, bio e links sociais.
+- [x] **2.1. Identificar Arquivos de Dados:** Localizar o diretório de dados (geralmente em `/data/` ou arquivos JSON/JS específicos).
+- [/] **2.2. Atualizar Informações Pessoais:** Nome, cargo, bio e links sociais (Bio pendente).
 - [ ] **2.3. Customizar Sidebar:** Definir quais "arquivos" (abas) seu VS Code terá (Sobre, Projetos, Contato, etc.).
 - [ ] **2.4. Atualizar Projetos:** Substituir os exemplos pelos seus próprios repositórios e descrições.
-- [ ] **2.5. Troca de Favicon e Título:** Atualizar as meta-tags para o seu nome.
+- [x] **2.5. Troca de Favicon e Título:** Atualizar as meta-tags para o seu nome.
+
+### Parte 2.5: Personalização do Conteúdo (Pendente)
+- [x] **A.1. Preencher Bio:** Escrever o texto da seção 'About'.
+- [x] **A.2. Preencher Experiência:** Adicionar histórico profissional no 'Experience'.
+- [x] **A.3. Preencher Skills:** Listar tecnologias conhecidas.
+- [ ] **A.5. Preencher Beyond Code:** Adicionar interesses pessoais.
+- [x] **A.6. Configurar Contatos:** Ajustar links no componente 'ContactCode'.
+- [ ] **A.7. Preencher Projetos:** Adicionar seus projetos reais no arquivo 'data/projects.ts'.
 
 ### Parte 3: Estética e Polimento
 - [ ] **3.1. Escolha da Imagem de Fundo:** Definir a imagem que ficará atrás da janela.
 - [ ] **3.2. Escolha do Tema Padrão:** Configurar qual tema do VS Code (Dracula, Nord, etc.) será o inicial.
-- [ ] **3.3. Configurar dev.to (Opcional):** Se tiver blog, configurar a chave de API ou remover a seção.
 
 ### Parte 4: Deploy e Finalização
+- [ ] **4.0. Configurar GitHub API Key:** Gerar um Personal Access Token no GitHub e adicionar ao `.env` para evitar limites de taxa (Rate Limit).
 - [ ] **4.1. Build de Produção:** Testar se o site compila corretamente para produção.
 - [ ] **4.2. Deploy:** Subir para Vercel, Netlify ou GitHub Pages.
 - [ ] **4.3. Teste Final:** Verificar links, formulário de contato e visual em diferentes navegadores.
