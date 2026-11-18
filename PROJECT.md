@@ -1,7 +1,7 @@
 # vscode-portfolio — Project Brief
 
 > Gerado em 2026-11-18 a partir de 16 arquivos lidos e 12 respostas de entrevista.
-> Raiz: `vscode-portfolio/` · Submódulo em `1878641` · Repo guarda-chuva em `32a6255`
+> Raiz: `./` · Commit: `b3af57e` · Repositório único (sem submódulo)
 
 Legenda de origem: `[code: caminho]` evidência de arquivo · `[interview]` resposta do dono · `[inference]` dedução, sujeita a revisão.
 
