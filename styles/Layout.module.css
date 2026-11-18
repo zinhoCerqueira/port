@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap');
+
+.windowContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #0a0a0b;
+  background-image: 
+    radial-gradient(circle at 1px 1px, rgba(165, 243, 252, 0.15) 1px, transparent 0); /* Reduzido para 1px e aumentei levemente a opacidade para compensar o tamanho */
+  background-size: 40px 40px;
+  position: relative;
+  overflow: hidden;
+  padding: 2rem;
+}
+
+.windowContainer::before {
+  content: '';
+  position: absolute;
+  top: -10%;
+  left: -10%;
+  width: 120%;
+  height: 120%;
+  background: radial-gradient(
+    circle at center,
+    rgba(165, 243, 252, 0.1) 0%,
+    rgba(165, 243, 252, 0.03) 40%,
+    transparent 70%
+  );
+  animation: drift 30s ease-in-out infinite alternate; /* Voltou para 30s, mais lento e suave */
+  pointer-events: none;
+  z-index: 1;
+  filter: blur(40px);
+}
+
+@keyframes drift {
+  from {
+    transform: translate(-8%, -8%);
+  }
+  to {
+    transform: translate(8%, 8%);
+  }
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 4rem);
+  width: 75vw;
+  max-width: 1400px;
+  max-height: 1000px; /* Aumentado de 900px */
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+  position: relative;
+  z-index: 10; /* Mantido acima da luz */
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+@media screen and (max-width: 1024px) {
+  .layout {
+    width: 92vw;
+    height: 92vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .windowContainer {
+    padding: 0;
+    background-image: none;
+  }
+  .windowContainer::before {
+    display: none;
+  }
+  .layout {
+    width: 100vw;
+    height: 100vh;
+    max-width: none;
+    max-height: none;
+    border-radius: 0;
+    border: none;
+  }
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  background: var(--main-bg);
+  overflow: hidden;
+  min-height: 0;
+}
+
+.editorContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+}
+
+.editorWithTerminal {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+}
+
+.content {
+  padding: 2rem;
+  color: var(--text-color);
+  font-family: 'JetBrains Mono', monospace;
+  flex: 1;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.content {
+  scrollbar-width: 10px;
+  scrollbar-color: var(--accent-color);
+}
+
+.content::-webkit-scrollbar {
+  width: 15px;
+}
+
+.content::-webkit-scrollbar-track {
+  background: var(--scrollbar-track-bg);
+  border-left: 1px solid #1e1f29;
+}
+
+.content::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb-bg);
+  border-left: 1px solid #1e1f29;
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    padding: 2rem 1rem;
+  }
+}

@@ -1,4 +1,0 @@
-[submodule "vscode-portfolio"]
-	path = vscode-portfolio
-	url = https://github.com/zinhoCerqueira/vscode-portfolio.git
-	branch = main
